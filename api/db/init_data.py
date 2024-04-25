@@ -185,7 +185,13 @@ def init_llm_factory():
             "tags": "LLM,CHAT,IMAGE2TEXT",
             "max_tokens": 765,
             "model_type": LLMType.IMAGE2TEXT.value
-        },
+        },{
+            "fid": factory_infos[0]["name"],
+            "llm_name": "Qwen/Qwen1.5-MoE-A2.7B-Chat",
+            "tags": "LLM,CHAT,32K",
+            "max_tokens": 32768,
+            "model_type": LLMType.CHAT.value
+       },
         # ----------------------- Qwen -----------------------
         {
             "fid": factory_infos[1]["name"],

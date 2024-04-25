@@ -64,10 +64,10 @@ default_llm = {
         "asr_model": "paraformer-realtime-8k-v1",
     },
     "OpenAI": {
-        "chat_model": "gpt-3.5-turbo",
-        "embedding_model": "text-embedding-ada-002",
-        "image2text_model": "gpt-4-vision-preview",
-        "asr_model": "whisper-1",
+        "chat_model": "Qwen/Qwen1.5-MoE-A2.7B-Chat",
+        "embedding_model": "",
+        "image2text_model": "",
+        "asr_model": "",
     },
     "ZHIPU-AI": {
         "chat_model": "glm-3-turbo",
